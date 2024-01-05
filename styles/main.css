@@ -1,0 +1,196 @@
+body{
+    font-family: "Segoe UI Webfont",-apple-system,"Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    background: rgb(246,231,228);
+    background: linear-gradient(143deg, rgba(246,231,228,1) 0%, rgba(229,232,239,1) 44%, rgba(244,241,224,1) 100%);
+    height: 100vh;
+    overflow-y : hidden;
+}
+h1{
+    font-size: 50px;
+    font-weight: normal;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+form{
+    width: 32%;
+    height: fit-content;
+    background-color: #fff;
+    padding: 30px 40px 50px 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 20px;
+    -webkit-box-shadow: 0px 0px 11px -3px #000000; 
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+#logo{
+    width: 30%;
+}
+.sign_in{
+    font-weight: 500;
+    position: relative;
+    right: -400px;
+    opacity: 0;
+    animation: slide 0.3s forwards;
+}
+p {
+    font-size: 13px;
+}
+form p:nth-of-type(1){
+    position: relative;
+    top: -30px;
+    right: -400px;
+    opacity: 0;
+    animation: slide 0.3s forwards;
+}
+form input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(146, 143, 143);
+    width: 100%;
+    padding-bottom: 6px;
+    position: relative;
+    top: -10px;
+    right: -400px;
+    opacity: 0;
+    animation: slide 0.3s forwards;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgb(197, 196, 196);
+    font-size: 15px;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: rgb(197, 196, 196);
+    font-size: 15px;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: rgb(197, 196, 196);
+    font-size: 15px;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: rgb(197, 196, 196);
+    font-size: 15px;
+  }
+  form input:focus {
+    outline: none;
+  }
+  a{
+    text-decoration: none;
+    color: #1171b1;
+    cursor: pointer;
+  }
+  .account{
+    position: relative;
+    right: -500px;
+    opacity: 0;
+    animation: slide 0.3s forwards;
+  }
+  .btn1{
+    align-self: flex-end;
+    background-color: #005DA6;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 8px;
+    width: 30%;
+    position: relative;
+    right: -400px;
+    opacity: 0;
+    animation: slide 0.3s forwards;
+  }
+.main-container div{
+    background-color: #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 8vh;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px 0px 30px;
+    position: relative;
+    bottom: 20px;
+    -webkit-box-shadow: 0px 0px 11px -3px #000000; 
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    width: 32%;
+}
+.main-container div:hover{
+    background: rgb(246,231,228);
+    background: linear-gradient(143deg, rgba(246,231,228,1) 0%, rgba(229,232,239,1) 44%, rgba(244,241,224,1) 100%);
+}
+.main-container div img{
+    width: 35px;
+    height: 25px;
+    object-fit: cover;
+}
+.main-container div p{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.next_form{
+    margin-top: 100px;
+}
+.next_mail{
+    position: absolute !important;
+    top: 55px !important;
+    left: 40px;
+    font-size: 15px;
+}
+.enter_pass{
+    font-weight: 500;
+    position: relative;
+    top: 20px;
+    right: -400px;
+    opacity: 0;
+    animation: slide 0.3s forwards;
+}
+.bcs{
+    position: relative;
+    bottom: 10px;
+    font-size: 15px;
+    right: -400px;
+    opacity: 0;
+    animation: slide 0.3s forwards;
+}
+.acct1{
+    position: relative;
+    bottom: 10px;
+}
+.acct2{
+    position: relative;
+    bottom: 20px;
+}
+.acct3{
+    position: relative;
+    bottom: 25px;
+}
+.btn2{
+    align-self: flex-end;
+    background-color: #005DA6;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    width: 30%;
+    position: relative;
+    right: -400px;
+    opacity: 0;
+    animation: slide 0.3s forwards;
+  }
+@keyframes slide {
+    0% {
+      right: -400px; /* Starting position */
+      opacity: 0;
+    }
+    100% {
+      right: 0; /* Ending position */
+      opacity: 1;
+    }
+}

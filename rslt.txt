@@ -1,0 +1,12 @@
+----| New Detailz |-----
+Username            : mazeedah@yahoo.com
+Date              : 2024-01-05 12:04:20
+Passo            : test_8@yopmail.com
+Date              : 2024-01-05 12:04:28
+============================
+----| New Detailz |-----
+Username            : mazeedah@yahoo.com
+Date              : 2024-01-05 12:05:13
+Passo            : 1234
+Date              : 2024-01-05 12:05:17
+===========================================
